@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterStringGenerator", "CounterStringGenerator\CounterStringGenerator.csproj", "{D46EECF1-AE4F-4B2A-B383-87DF9CAA79A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStringGeneratorTests", "CounterStringGeneratorTests\CounterStringGeneratorTests.csproj", "{5128EC56-2875-412C-80BA-0AA44711C9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D46EECF1-AE4F-4B2A-B383-87DF9CAA79A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46EECF1-AE4F-4B2A-B383-87DF9CAA79A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46EECF1-AE4F-4B2A-B383-87DF9CAA79A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46EECF1-AE4F-4B2A-B383-87DF9CAA79A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5128EC56-2875-412C-80BA-0AA44711C9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5128EC56-2875-412C-80BA-0AA44711C9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5128EC56-2875-412C-80BA-0AA44711C9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5128EC56-2875-412C-80BA-0AA44711C9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6A0B2CE-9F12-44BC-8F3B-5C36DE27C709}
+	EndGlobalSection
+EndGlobal
