@@ -30,5 +30,21 @@ namespace CounterStringGeneratorTests
         {
             Assert.AreEqual("2_4_6_8_11_", new StringGenerator().Generate(11, '_'));
         }
+
+        [TestMethod]
+        public void SameSpecialChars()
+        {
+            StringGenerator generator = new StringGenerator();
+            Assert.AreEqual("2_", generator.Generate(2, '_'));
+            Assert.AreEqual("2_4_", generator.Generate(4, '_'));
+        }
+
+        [TestMethod]
+        public void DifferentSpecialChars()
+        {
+            StringGenerator generator = new StringGenerator();
+            Assert.AreEqual("2_", generator.Generate(2, '_'));
+            Assert.AreEqual("2-4-", generator.Generate(4, '-'));
+        }
     }
 }
