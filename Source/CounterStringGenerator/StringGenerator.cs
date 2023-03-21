@@ -7,7 +7,7 @@ namespace CounterStringGenerator
         public StringGenerator()
         {
             // Pre-allocate 16 MB buffer
-            _counterString = new StringBuilder((1<<24) + 10);
+            _counterString = new StringBuilder((1 << 24) + 10);
         }
 
         private readonly StringBuilder _counterString;
@@ -19,8 +19,9 @@ namespace CounterStringGenerator
             // Allocate a little bit more memory, so that the last number fits in.
             // We'll truncate that part later
             _counterString.EnsureCapacity(length + 10);
+            _counterString.Clear();
 
-            int lengthChange = 1+1; // Current increase of string length is 1 digit + 1 special character
+            int lengthChange = 1 + 1; // Current increase of string length is 1 digit + 1 special character
             int display = 2; // First number to display is 2
             while (_counterString.Length < length)
             {
